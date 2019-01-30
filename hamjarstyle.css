@@ -1,0 +1,111 @@
+@charset="UTF-8";
+/*hamjar style*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f4ef5c;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    
+}
+
+.column1 {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #54436e;
+    box-shadow: 2px 2px 4px #979fb4;
+}
+
+p {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 1.5vw;
+    line-height: 1.5em;
+    font-family: monospace;
+    font-style: italic;
+}
+
+h2 {
+    font-size: ;
+    font-family: monospace;
+    font-style: normal;
+    padding-left: 50px;
+    font-style: oblique;
+}
+
+
+@media screen and (max-width: 480px) {
+    .column1 {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .column1 p {
+        text-align: left;
+        padding-left: 20px;
+        font-size: 13px;
+
+        font-family: monospace;
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: ;
+        font-family: monospace;
+        font-style: normal;
+
+        padding-left: 40px;
+        font-style: oblique;
+    }
+
+    @media screen and (max-width:640px) {
+        .column {
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+        .column1 p {
+            text-align: left;
+            padding-left: 20px;
+            font-size: 20px;
+
+            font-family: monospace;
+            font-style: italic;
+        }
+        h2 {
+            font-size: ;
+            font-family: monospace;
+            font-style: normal;
+
+            padding-left: 40px;
+            font-style: oblique;
+        }
+        @media screen and (max-width:1024px) {
+            .column {
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+            p {
+                text-align: left;
+                padding-left: 40px;
+                font-size: 2vw;
+            }
+            h2 {
+                font-size: ;
+                font-family: monospace;
+                font-style: normal;
+                padding-left: 40px;
+                font-style: oblique;
+            }
